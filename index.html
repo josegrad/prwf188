@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="https://wsman.heroku.com/stylesheets/validationEngine.jquery.css?1331044481" media="screen" rel="stylesheet" type="text/css">
+<link href="https://wsman.heroku.com/stylesheets/mobile.css" media="screen" rel="stylesheet" type="text/css">
+<script src="jquery.js"></script><script src="https://wsman.heroku.com/javascripts/languages/jquery.validationEngine-en.js?1331044481" type="text/javascript"></script><script src="https://wsman.heroku.com/javascripts/jquery.validationEngine.js?1331044481" type="text/javascript"></script><script src="https://wsman.heroku.com/javascripts/jquery.autoellipsis-1.0.3.min.js?1331044481" type="text/javascript"></script><meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="OD3e9AB5h9Xp4yPnwxbJTHHjJONzgp/hJbRkY8pYo1Y=">
+</head>
+<body>
+	<div class="main_container clearfix">
+		<script type="text/javascript">
+
+</script><div data-role="content" data-inset="false" style="margin: 0; padding: 0; padding-top: 10px;">
+
+
+  <div class="column" style="background: transparent;">
+      <article id="8205" class="article article_index_0"><span class="entry_date">Wed, 07 Mar 2012 14:00:00 +0100</span>
+      	<div class="summary_entry_title">Madrid, SPAIN Weather :: 12C Fair</div>
+      	<div class="entry_title">Madrid, SPAIN Weather :: 12C Fair</div>
+      	<div style="clear: both;"></div>
+      	<div class="entry_summary">12C Fair</div>
+      	<div class="reading">
+<h4>
+<img src="fair.gif" alt="fair" class="icon" width="55" height="58" id="fair.gif" border="0"><span class="sky">Fair</span> <span class="temp">12°C</span>
+</h4>
+<dl style="display: inline;">
+<dt style="display: inline; font-weight: bold;">Humidity:</dt>
+<dd id="humidity" style="display: inline;">25%</dd> <dt style="display: inline; font-weight: bold;">Wind Speed:</dt>
+<dd id="windspeed" style="display: inline;">5 KMH</dd> <dt style="display: inline; font-weight: bold;">Wind Direction:</dt>
+<dd id="winddir" style="display: inline;">N (010°)</dd> <dt style="display: inline; font-weight: bold;">Barometer:</dt>
+<dd id="pressure" style="display: inline;"> 1028 mb</dd> <dt style="display: inline; font-weight: bold;">Dewpoint:</dt>
+<dd id="dewpoint" style="display: inline;">-7°C</dd> <dt style="display: inline; font-weight: bold;">Heat Index:</dt>
+<dd id="heatindex" style="display: inline;">12°C</dd> <dt style="display: inline; font-weight: bold;">Wind Chill:</dt>
+<dd id="windchill" style="display: inline;">12°C</dd> <dt style="display: inline; font-weight: bold;">Visibility:</dt>
+<dd id="visibility" style="display: inline;">11 km</dd>
+</dl>
+</div>
+      	<div class="options"></div>
+      </article><div class="article_bottom_border"></div>
+<a href="69.html#" onclick="javascript:void(0);" class="show_button_link" id="show_id_link_8205"><div class="show_button"><div id="triangle_8205" class="article_triangle"></div></div></a>
+      <article id="8207" class="article article_index_1"><span class="entry_date">Wed, 07 Mar 2012 12:00:00 +0100</span>
+      	<div class="summary_entry_title">Forecast for Evening</div>
+      	<div class="entry_title">Forecast for Evening</div>
+      	<div style="clear: both;"></div>
+      	<div class="entry_summary">Fair with winds from the eastnortheast at 5 mph. </div>
+      	<div class="reading">Fair with winds from the eastnortheast at 5 mph. </div>
+      	<div class="options"></div>
+      </article><div class="article_bottom_border"></div>
+<a href="69.html#" onclick="javascript:void(0);" class="show_button_link" id="show_id_link_8207"><div class="show_button"><div id="triangle_8207" class="article_triangle"></div></div></a>
+  </div>
+  <div class="column" style="background: transparent;">
+        <article id="8206" class="article article_index_0"><span class="entry_date">Wed, 07 Mar 2012 12:00:00 +0100</span>
+      	<div class="summary_entry_title">Forecast for Afternoon</div>
+        <div class="entry_title">Forecast for Afternoon</div>
+        <div style="clear: both"></div>
+      	<div class="entry_summary">Fair with winds from the eastnortheast at 5 mph. </div>
+       	<div class="reading">Fair with winds from the eastnortheast at 5 mph. </div>
+      	<div class="options"></div>
+      </article><div class="article_bottom_border"></div>
+      <a href="69.html#" onclick="javascript:void(0);" class="show_button_link" id="show_id_link_8206"><div class="show_button"><div id="triangle_8206" class="article_triangle"></div></div></a>
+        <article id="8208" class="article article_index_1"><span class="entry_date">Wed, 07 Mar 2012 12:00:00 +0100</span>
+      	<div class="summary_entry_title">Forecast for Overnight</div>
+        <div class="entry_title">Forecast for Overnight</div>
+        <div style="clear: both"></div>
+      	<div class="entry_summary">Fair with winds from the eastnortheast at 5 mph. </div>
+       	<div class="reading">Fair with winds from the eastnortheast at 5 mph. </div>
+      	<div class="options"></div>
+      </article><div class="article_bottom_border"></div>
+      <a href="69.html#" onclick="javascript:void(0);" class="show_button_link" id="show_id_link_8208"><div class="show_button"><div id="triangle_8208" class="article_triangle"></div></div></a>
+  </div>
+  
+<script>
+
+	$(document).ready(function(){
+		$('.entry_summary').ellipsis();
+		$('.summary_entry_title').ellipsis();
+  	$('.show_button_link, .article').click(function(e) {
+  		article_id = (this.id).replace('show_id_link_','');
+			showArticle(article_id);
+  	})
+  });
+
+</script>
+</div>
+
+	</div>
+</body>
+</html>
